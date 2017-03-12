@@ -6,7 +6,7 @@ This is a website build for ASU Epic Movement. It gear toward the love of commun
 
 To use this template, choose one of the following options to get started:
 * Fork this repository on GitHub
-* Have fun with implement and build for it.
+* Have fun with implementation of your own version of Epic Movement Website.
 
 ## Bugs and Issues
 
