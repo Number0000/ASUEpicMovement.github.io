@@ -334,13 +334,6 @@ body {
 .typingtext .typingcontent{
 	display: inline;
 }
-.typingtext .dash{
-	display: inline-block;
-	height: 3px;
-	width: 20px;
-	background-color: #66ffcc;
-	animation: blink .5s infinite linear;
-}
 
 @keyframes blink{
 	0%{
