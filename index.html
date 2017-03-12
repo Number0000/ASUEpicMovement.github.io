@@ -154,7 +154,7 @@
             // locate you.
 
             function initMap() {
-                var EDC320 = {lat: 33.417983, lng: - 111.937249}
+                var EDC320 = {lat: 33.417983, lng: -111.937249};
                 var map = new google.maps.Map(document.getElementById('map'), {
                 center: EDC320,
                 zoom: 18,
@@ -243,10 +243,11 @@
                 var contentString = '<div id="content">'+
                   '<div id="siteNotice">'+
                   '</div>'+
-                  '<h1 id="firstHeading" class="firstHeading"></h1>'+
+                  '<h1 id="firstHeading" class="firstHeading">ASU Epic</h1>'+
                   '<div id="bodyContent">'+
-                  '<p><b>We are here</b></p>'+
-                  '<p>EDC320</p>'+'</div>';
+                        '<p><b>We are here</b></p>'+
+                        '<p>EDC320</p>'+
+                  '</div>';
                 var infoWindow = new google.maps.InfoWindow({content: contentString});
 
                 var marker = new google.maps.Marker({
