@@ -17,6 +17,5 @@ Have a bug or an issue with this website? Leave a comment on our facebook and we
 This website was created by Epic Movement @ ASU development team.
 
 ## Copyright and License
-
-Do as we say, not as we say.
 Love God.
+Do as we say, not as we do.
