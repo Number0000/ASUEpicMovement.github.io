@@ -74,9 +74,14 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"></h1>
-                        <p class="intro-text">A free, responsive, one page Bootstrap theme.
-                            <br>Created by Start Bootstrap.</p>
+                        <p style="margin-top: 80px"><img src="img/epic-movement-logo.png" height="250" width="490"></p>
+                        <script src="js/index.js"></script>
+                        <p><img src="img/asu-logo.png" height="121" width="290"></p>
+
+
+
+    <!--                    <p class="intro-text">A free, responsive, one page Bootstrap theme.
+                            <br>Created by Start Bootstrap.</p> -->
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -142,51 +147,11 @@
 
     <!-- Map Section -->
     <div id="map"></div>
-    <script>
-      // Note: This example requires that you consent to location sharing when
-      // prompted by your browser. If you see the error "The Geolocation service
-      // failed.", it means you probably did not give permission for the browser to
-      // locate you.
-
-      function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: 33.417983, lng: -111.937249},
-              zoom: 6
-            });
-            var infoWindow = new google.maps.InfoWindow({map: map});
-
-            // Try HTML5 geolocation.
-            if (navigator.geolocation) {
-              navigator.geolocation.getCurrentPosition(function(position) {
-                var pos = {
-                  lat: position.coords.latitude,
-                  lng: position.coords.longitude
-                };
-
-                infoWindow.setPosition(pos);
-                infoWindow.setContent('Location found.');
-                map.setCenter(pos);
-              }, function() {
-                handleLocationError(true, infoWindow, map.getCenter());
-              });
-            } else {
-              // Browser doesn't support Geolocation
-              handleLocationError(false, infoWindow, map.getCenter());
-            }
-          }
-
-          function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-            infoWindow.setPosition(pos);
-            infoWindow.setContent(browserHasGeolocation ?
-                                  'Error: The Geolocation service failed.' :
-                                  'Error: Your browser doesn\'t support geolocation.');
-          }
-    </script>
 
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy;  ASU Epic Movement 2016</p>
+            <p>Copyright &copy; Your Website 2016</p>
         </div>
     </footer>
 
@@ -200,7 +165,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0MoGG2qF_NkOIXlRYZvgkIOsSU4HwPnk&callback=initMap"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA0MoGG2qF_NkOIXlRYZvgkIOsSU4HwPnk&sensor=false"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
