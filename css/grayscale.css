@@ -312,3 +312,44 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+.body1{
+	font-family: 'Montserrat';
+	color: #333;
+}
+
+.typingtext{
+	width: 100%;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 30px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.typingtext .typingcontent{
+	display: inline;
+}
+.typingtext .dash{
+	display: inline-block;
+	height: 3px;
+	width: 20px;
+	background-color: #66ffcc;
+	animation: blink .5s infinite linear;
+}
+
+@keyframes blink{
+	0%{
+		opacity: 1;
+	}
+	99%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
